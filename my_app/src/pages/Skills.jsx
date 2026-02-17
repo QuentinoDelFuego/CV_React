@@ -35,6 +35,7 @@ export default function Skills() {
       <h2>Data & databases</h2>
       <ul>
         <li>Relational databases (MySQL, SQLite)</li>
+        <li>NoSQL database: MongoDB</li>
         <li>Basic data analysis with Python</li>
       </ul>
 

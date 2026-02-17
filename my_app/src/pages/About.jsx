@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <section>
+    <section className="about">
   <h1>About me</h1>
 
   <p>
-    My name is Quentin Juskowiak, and I am a third-year computer science student.
+    My name is <strong>Quentin Juskowiak</strong>, and I am a third-year computer science student.
     This website was created to showcase my front-end skills using React, as well as my ability to work in English.
     It also serves as an easy way to share my CV, as I am currently looking for an internship or an apprenticeship.
   </p>
@@ -14,7 +14,7 @@ export default function About() {
   </p>
 
   <p>
-    I am currently studying at Enigma School, located at Euratechnologies in Lille.
+    I am currently studying at <a href="https://www.enigma-school.com/" target="_blank" rel="noreferrer">Enigma School</a>, located at Euratechnologies in Lille.
     My curriculum covers a wide range of computer science fields, including front-end and back-end development,
     networking, and data-related technologies.
   </p>

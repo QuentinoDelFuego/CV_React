@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 import About from "./pages/About.jsx";
 import Skills from "./pages/Skills.jsx";
@@ -19,6 +20,8 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+
+      <Footer />
     </BrowserRouter>
   );
 }

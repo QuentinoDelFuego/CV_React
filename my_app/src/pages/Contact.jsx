@@ -44,7 +44,7 @@ export default function Contact() {
 
       <h2>CV</h2>
       <p>
-        <a href="/cvQuentinJuskowiak.pdf" target="_blank" rel="noreferrer">
+        <a href="/cvQuentinJuskowiak.pdf" download target="_blank" rel="noreferrer">
           Download my CV (PDF)
         </a>
       </p>
