@@ -4,48 +4,54 @@ export default function Contact() {
       <h1>How to contact me</h1>
 
       <p>
-        If you would like to discuss an internship or an apprenticeship opportunity,
+        If you would like to discuss an internship or an apprenticeship opportunity, <br></br>
         feel free to contact me using the details below.
       </p>
 
-      <h2>Contact details</h2>
-      <ul>
+      <ul className="contact-list">
         <li>
-          <strong>Email:</strong>{" "}
-          <a href="mailto:juskowiakquentin@gmail.com">juskowiakquentin@gmail.com</a>
+          <i className="fa-solid fa-envelope"></i>
+          <a href="mailto:juskowiakquentin@gmail.com">
+            juskowiakquentin@gmail.com
+          </a>
         </li>
+
         <li>
-          <strong>LinkedIn:</strong>{" "}
+          <i className="fa-brands fa-linkedin"></i>
           <a
             href="https://www.linkedin.com/in/quentin-juskowiak-589a5a293/"
             target="_blank"
             rel="noreferrer"
           >
-            View my LinkedIn profile
+            Quentin Juskowiak
           </a>
         </li>
+
         <li>
-          <strong>GitHub:</strong>{" "}
+          <i className="fa-brands fa-github"></i>
           <a
             href="https://github.com/QuentinoDelFuego"
             target="_blank"
             rel="noreferrer"
           >
-            View my GitHub
+            QuentinoDelFuego
           </a>
         </li>
+
         <li>
-          <strong>Location:</strong> Lille, France
+          <i className="fa-solid fa-location-dot"></i>
+          <span>Lille, France</span>
         </li>
+
         <li>
-          <strong>Mobility:</strong> Driving license and personal vehicle
+          <i className="fa-solid fa-car"></i>
+          <span>Driving license and personal vehicle</span>
         </li>
       </ul>
 
-      <h2>CV</h2>
-      <p>
-        <a href="/cvQuentinJuskowiak.pdf" download target="_blank" rel="noreferrer">
-          Download my CV (PDF)
+      <p style={{ marginTop: "20px" }}>
+        <a href="/cvQuentinJuskowiak.pdf" download>
+          <i className="fa-solid fa-file-arrow-down"></i> Download my CV (PDF)
         </a>
       </p>
     </section>

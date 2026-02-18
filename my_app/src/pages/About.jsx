@@ -6,7 +6,7 @@ export default function About() {
   <p>
     My name is <strong>Quentin Juskowiak</strong>, and I am a third-year computer science student.
     This website was created to showcase my front-end skills using React, as well as my ability to work in English.
-    It also serves as an easy way to share my CV, as I am currently looking for an internship or an apprenticeship.
+    It also serves as an easy way to share my CV, as I am currently looking for an internship and an apprenticeship.
   </p>
 
   <p>

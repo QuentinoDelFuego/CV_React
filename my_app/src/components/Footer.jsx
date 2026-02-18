@@ -12,7 +12,7 @@ export default function Footer() {
           rel="noreferrer"
           style={styles.link}
         >
-          My GitHub
+          <i className="fa-brands fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/quentin-juskowiak-589a5a293/"
@@ -20,7 +20,7 @@ export default function Footer() {
           rel="noreferrer"
           style={styles.link}
         >
-          My LinkedIn
+          <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href="/cvQuentinJuskowiak.pdf" target="_blank" rel="noreferrer" style={styles.link}>
           CV (PDF)
