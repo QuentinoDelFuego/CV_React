@@ -29,7 +29,7 @@ export default function Skills() {
       <h2>Back-end</h2>
       <ul>
         <li>Node.js (Express basics)</li>
-        <p>PHP</p>
+        <li>PHP</li>
         <li>REST APIs</li>
         <li>Basic authentication concepts</li>
       </ul>
