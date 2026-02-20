@@ -15,6 +15,7 @@ export default function Skills() {
         <li>Python</li>
         <li>C</li>
         <li>C#</li>
+        <li>Java</li>
         <li>PHP</li>
         <li>SQL</li>
       </ul>
@@ -28,6 +29,7 @@ export default function Skills() {
       <h2>Back-end</h2>
       <ul>
         <li>Node.js (Express basics)</li>
+        <p>PHP</p>
         <li>REST APIs</li>
         <li>Basic authentication concepts</li>
       </ul>
