@@ -17,6 +17,13 @@ export default function Contact() {
         </li>
 
         <li>
+          <i className="fa-solid fa-phone"></i>
+          <a href="tel:+33782531069">
+            +33 7 82 53 10 69
+          </a>
+        </li>
+
+        <li>
           <i className="fa-brands fa-linkedin"></i>
           <a
             href="https://www.linkedin.com/in/quentin-juskowiak-589a5a293/"
